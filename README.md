@@ -2,7 +2,7 @@
 
 ## Sobre o projeto ##
 
-Aplicação de sorteio aleatório de nomes desenvolvida em HTML, CSS e Javascript, como desafio da turma ONE da Alura/Oracle.
+Aplicação de sorteio aleatório de nomes desenvolvida em HTML, CSS e Javascript, como desafio da turma ONE da Oracle/Alura.
 
 ## Como funciona ##
 
