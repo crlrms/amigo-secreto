@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: darkcyan;
+    justify-content: center;
+}
+
+.cabecalho h1 {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.captura-nome h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 20px 0;
+    font-size: 38px;
+    color: darkcyan;
+}
+
+.captura-nome #botao{
+    height: 38px;
+    width: 87px;
+    border-radius: 0 17px 17px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    border-left: 2px solid rgb(158, 158, 158);
+}
+
+.area-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-input input {
+    margin-left: 8%;
+    width: 400px;
+    height: 35px;
+    border-radius: 17px 0 0 17px;
+    border-right: 2px solid rgb(166, 164, 164);
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+.area-input #mostraNome{
+    margin: 25px 0 15px 0;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategray;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.button-select button {
+    margin: 35px 3px 0 0;
+    width: 250px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+.button-select button:hover{
+    background-color: rgb(213, 59, 3);
+}
+
+.button-select img{
+    width: 35px;
+    margin: 5px 0 0 20px;
+}
+
+.button-select p{
+    float: right;
+    margin: 7px 72px 0 0;
+    font-size: 25px;
+}
+
+#mostraNomeSorteado{
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(24, 153, 24);
+}

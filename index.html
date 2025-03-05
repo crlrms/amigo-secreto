@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <main class="principal">
+
+        <header class="cabecalho">
+            <h1><i>Amigo Secreto</i></h1>
+            <img src="img/amigo-secreto.png" alt="Ilustração estilizada de uma pessoa com camiseta laranja">
+        </header>
+
+        <div class="area-input">
+            <div class="captura-nome">
+                <h2>Digite o nome dos seus amigos</h2>
+                <input type="text" id="nome" autocomplete="off" onkeydown="addEnter(event)">
+                <button id="botao" type="button" onclick="adicionar()" value="Adicionar">Adicionar</button>
+            </div>
+            <div id="mostraNome"></div>
+            <div id="mostraNomeSorteado"></div>
+        </div>
+        <div class="container-btn">
+            <div class="button-select">
+                    <button onclick="sortear()"><img src="img/play_circle_outline.png" alt="íconde de sorteio"><p>Sortear</p></button>
+            </div>
+            <div class="button-select" style="margin-top: 0;">
+                    <button onclick="resetar()"><img src="img/icon-reset.png" alt="íconde de sorteio"><p>Resetar</p></button>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
